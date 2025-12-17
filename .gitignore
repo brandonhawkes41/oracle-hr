@@ -1,0 +1,3 @@
+# Debug files from migrate-reverse
+*.debug
+run.debug

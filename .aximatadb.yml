@@ -1,0 +1,11 @@
+user:
+  dev:
+    name: HRDEV
+    password_var: ${HR_PASSWORD}
+  prd:
+    name: HR
+    password_var: ${HR_PASSWORD}
+dbtype: oracle
+connection_strings:
+  dev: oracle-19c-test:1521/ORCLPDB1
+  prd: oracle-19c-test:1521/ORCLPDB1
